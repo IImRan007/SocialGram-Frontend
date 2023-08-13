@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://weak-gold-harp-seal-garb.cyclic.app/",
+        target: "https://weak-gold-harp-seal-garb.cyclic.app",
         changeOrigin: true,
         secure: false,
         ws: true,
