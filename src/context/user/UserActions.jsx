@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/users/";
+const API_URL = "https://weak-gold-harp-seal-garb.cyclic.app/users/";
 
 // Register user
 export const register = async (userData) => {
