@@ -1,7 +1,7 @@
 /* eslint-disable no-useless-catch */
 import axios from "axios";
 
-const API_URL = "https://weak-gold-harp-seal-garb.cyclic.app/users/profile";
+const API_URL = "https://weak-gold-harp-seal-garb.cyclic.app/users/profile/";
 
 // Create profile
 export const createProfile = async (profileData, token) => {

@@ -1,7 +1,7 @@
 /* eslint-disable no-useless-catch */
 import axios from "axios";
 
-const API_URL = "https://weak-gold-harp-seal-garb.cyclic.app/posts";
+const API_URL = "https://weak-gold-harp-seal-garb.cyclic.app/posts/";
 
 // Create post
 export const createPost = async (postData, token) => {
